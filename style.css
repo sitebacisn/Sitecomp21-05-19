@@ -1,0 +1,47 @@
+h1, p
+
+{
+
+    color: orange;
+
+    /*font-size: 14px;/*Taille de la police du texte */
+    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+
+}
+.introduction
+{
+	color: Blue;
+	font-style: italic;/* Type standart décriture (gras italic oblique)*/
+	font-size: x-large;/* Taille de caractere */
+}
+.introduction:active
+{
+	background-color: green;
+}
+.salutations
+{
+	color: Blue;/* couleur de caractere */
+	font-size: 1.3em;
+	/*float: left;/* pour mettre un mot flottant */
+	background-color: yellow;
+	text-shadow: 4px 4px 4px Black ;
+}
+
+.salutations:hover
+{
+	color: red;
+	font-size : 2em;
+	font-style: italic;
+}
+
+body
+{	
+	box-shadow: 6px 6px 0px Black ;
+	border: dashed;
+	border-left: groove;
+	border-right: groove;
+	opacity: 1;
+	background-color: brown;
+	/*background-image: url("thumb2-hacking-hackers-hacker-code-hack.jpg");
+	background-repeat: no-repeat;*/
+}
